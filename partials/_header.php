@@ -26,6 +26,9 @@ $currentPage = $_SERVER["REQUEST_URI"];
                 <li class="<?php echo $currentPage === "/php/mito-php/produits.php" ? "active" : "" ?>">
                     <a href="produits.php" class="pr-10 ">Produits</a>
                 </li>
+                <li class="<?php echo $currentPage === "/php/mito-php/upload.php" ? "active" : "" ?>">
+                    <a href="upload.php" class="pr-10 ">Upload</a>
+                </li>
                 <li class="<?php echo $currentPage === "/php/mito-php/contact.php" ? "active" : "" ?>">
                     <a href="contact.php">Contact</a>
                 </li>
